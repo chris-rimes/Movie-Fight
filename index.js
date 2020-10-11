@@ -114,7 +114,7 @@ const movieTemplate = (movieDetail, colorHighlight) => {
   }, 0);
 
   return `
-    <article class="media">
+    <article class="media m*-2">
       <figure class="media-left">
         <p class="image">
         <img src="${movieDetail.Poster}" />

@@ -13,14 +13,12 @@ body {
 }
 
 .tutorial {
-  width: 600px;
   text-align: center;
   margin: auto;
 }
 
 figure.image {
   display: flex;
-  justify-content: center;
   background-color: black;
 }
 
@@ -46,7 +44,6 @@ figure .image img {
 
 .hero {
   margin-bottom: 20px;
-  width: 100%;
 }
 
 .forms {

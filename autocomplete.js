@@ -7,7 +7,7 @@ const createAutoComplete = ({
 }) => {
   root.innerHTML = `
   <label><b>Search</b></label>
-  <input class="input"/>
+  <input class="input is-size-5-mobile"/>
   <div class="dropdown">
     <div class="dropdown-menu">
       <div class="dropdown-content results">
@@ -15,7 +15,6 @@ const createAutoComplete = ({
     </div>
   </div>
 `;
-
   const input = root.querySelector('input');
   const dropdown = root.querySelector('.dropdown');
   const resultsWrapper = root.querySelector('.results');
